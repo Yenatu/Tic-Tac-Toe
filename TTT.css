@@ -31,7 +31,7 @@ body {
 }
 
 .cell:hover {
-    background-color: #f0f0f0;
+    background-color: rgb(30, 133, 146);
 }
 
 .cell:active {
@@ -39,7 +39,7 @@ body {
 }
 
 .cell.X {
-    color: #0065cc;
+    color: #091bbe;
 }
 
 .cell.O {
