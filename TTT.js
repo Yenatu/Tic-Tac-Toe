@@ -18,9 +18,9 @@ let currentPlayer = 'X';
                 document.getElementById('board').children[index].classList.add(currentPlayer);
                 currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
                 if (checkWinner()) {
-                    alert(`${currentPlayer === 'X' ? 'O' : 'X'} wins!`);
+                    alert(`${currentPlayer === 'X' ? 'O' : 'X'} wins 💸️!`);
                 } else if (!board.includes('')) {
-                    alert("It's a draw!");
+                    alert("It's a draw! ⚖️ ");
                 }
             }
         }
